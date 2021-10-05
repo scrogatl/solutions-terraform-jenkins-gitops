@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "hardy-pattern-328110-tfstate"
     prefix = "env/dev"
   }
 }

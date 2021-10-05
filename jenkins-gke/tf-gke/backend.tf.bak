@@ -16,7 +16,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "hardy-pattern-328110-tfstate"
+    bucket = "PROJECT_ID-tfstate"
     prefix = "jenkins"
   }
 }
